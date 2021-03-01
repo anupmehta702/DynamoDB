@@ -11,8 +11,9 @@
 <br />git remote -v
 <br />git push -f origin main ( and not master) 
 
-<b> If you have added code to master,do below steps to merge master branch to main</b>
-<br />git checkout master  
-<br />git branch main master -f    
-<br />git checkout main  
-<br />git push origin main -f 
+**If you have added code to master,do below steps to merge master branch to main**
+
+git checkout master  
+git branch main master -f    
+git checkout main  
+git push origin main -f 
